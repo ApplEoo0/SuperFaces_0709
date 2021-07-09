@@ -111,3 +111,9 @@ function mousePressed(){
     }
   } 
 }
+
+//ウィンドウサイズが変更されたときに実行される関数
+function windowResized() {
+  // print("ウィンドウサイズの変更");
+  resizeCanvas(windowWidth, windowHeight);
+}
