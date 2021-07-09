@@ -86,8 +86,8 @@ function draw(){
 
 function mousePressed(){
   
-  let fs = fullscreen();
-  fullscreen(!fs);
+  /*let fs = fullscreen();
+  fullscreen(!fs);*/
   
   if(mouseY > height*5/6){
     if(mouseX < width/a){
@@ -122,8 +122,8 @@ function mousePressed(){
 
 function touchStarted(){
   
-  let fs = fullscreen();
-  fullscreen(!fs);
+  /*let fs = fullscreen();
+  fullscreen(!fs);*/
   
   if(touchY > height*5/6){
     if(touchX < width/a){
