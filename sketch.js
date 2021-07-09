@@ -41,7 +41,11 @@ function setup(){
 
 function draw(){
   
-  r = width/16
+  if(width >= height){
+    r = height/16;
+  }else{
+    r = width/16;
+  }
   
   background(255);
   
