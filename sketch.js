@@ -77,6 +77,10 @@ function draw(){
 }
 
 function mousePressed(){
+  
+  let fs = fullscreen();
+  fullscreen(!fs);
+  
   if(mouseY > 400){
     if(mouseX < width/a){
       if(count1 < q){
