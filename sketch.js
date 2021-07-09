@@ -89,7 +89,7 @@ function mousePressed(){
   let fs = fullscreen();
   fullscreen(!fs);
   
-  if(mouseY > 400){
+  if(mouseY > height*5/6){
     if(mouseX < width/a){
       if(count1 < q){
         x1[count1] = random(r,width-r);
@@ -125,8 +125,8 @@ function touchStarted(){
   let fs = fullscreen();
   fullscreen(!fs);
   
-  if(mouseY > 400){
-    if(mouseX < width/a){
+  if(touchY > height*5/6){
+    if(touchX < width/a){
       if(count1 < q){
         x1[count1] = random(r,width-r);
         y1[count1] = random(r,height*5/6-r);
