@@ -120,6 +120,42 @@ function mousePressed(){
   } 
 }
 
+function touchStarted(){
+  
+  let fs = fullscreen();
+  fullscreen(!fs);
+  
+  if(mouseY > 400){
+    if(mouseX < width/a){
+      if(count1 < q){
+        x1[count1] = random(r,width-r);
+        y1[count1] = random(r,height*5/6-r);
+        dx1[count1] = random(2,5);
+        dy1[count1] = random(2,5);
+        count1++;
+      }
+    }
+    if((width/a < mouseX)&&(mouseX < width*2/a)){
+      if(count2 < q){
+        x2[count2] = random(r,width-r);
+        y2[count2] = random(r,height*5/6-r);
+        dx2[count2] = random(2,5);
+        dy2[count2] = random(2,5);
+        count2++;
+      }
+    }
+    if((width*2/a < mouseX)&&(mouseX < width*3/a)){
+      if(count3 < q){
+        x3[count3] = random(r,width-r);
+        y3[count3] = random(r,height*5/6-r);
+        dx3[count3] = random(2,5);
+        dy3[count3] = random(2,5);
+        count3++;
+      }
+    }
+  } 
+}
+
 //ウィンドウサイズが変更されたときに実行される関数
 function windowResized() {
   // print("ウィンドウサイズの変更");
