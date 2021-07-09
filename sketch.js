@@ -30,7 +30,6 @@ function setup(){
   face2 = loadImage("face2.png");
   face3 = loadImage("face3.png");
   
-  r = width/16
   
   let i;
   for(i=0;i<q;i++){
@@ -41,6 +40,9 @@ function setup(){
 }
 
 function draw(){
+  
+  r = width/16
+  
   background(255);
   
   fill(0);
