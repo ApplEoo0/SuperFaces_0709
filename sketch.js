@@ -42,7 +42,7 @@ function draw(){
   background(255);
   
   fill(0);
-  rect(0,height*5/6,width,height);
+  rect(0,windowHeight*5/6,windowWidth,windowHeight);
   
   image(face1,width/a/2-r,height*5/6+(height/6-r*2)/2,r*2,r*2);
   image(face2,width*2/a-width/a/2-2-r,height*5/6+(height/6-r*2)/2,r*2,r*2);
