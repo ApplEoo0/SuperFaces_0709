@@ -135,7 +135,7 @@ function touchStarted(){
         count1++;
       }
     }
-    if((width/a < mouseX)&&(mouseX < width*2/a)){
+    if((width/a < touchX)&&(touchX < width*2/a)){
       if(count2 < q){
         x2[count2] = random(r,width-r);
         y2[count2] = random(r,height*5/6-r);
@@ -144,7 +144,7 @@ function touchStarted(){
         count2++;
       }
     }
-    if((width*2/a < mouseX)&&(mouseX < width*3/a)){
+    if((width*2/a < touchX)&&(touchX < width*3/a)){
       if(count3 < q){
         x3[count3] = random(r,width-r);
         y3[count3] = random(r,height*5/6-r);
