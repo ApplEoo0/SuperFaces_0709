@@ -30,6 +30,8 @@ function setup(){
   face2 = loadImage("face2.png");
   face3 = loadImage("face3.png");
   
+  r = width/16
+  
   let i;
   for(i=0;i<q;i++){
     x1[i] = -r;
